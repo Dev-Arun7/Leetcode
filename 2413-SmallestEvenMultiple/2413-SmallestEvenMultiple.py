@@ -1,10 +1,9 @@
-class Solution:
-    def smallestEvenMultiple(self, n: int) -> int:
-        i = n
-        while True:
-            if i % n == 0 and i % 2 == 0:
-            else:
-                break
-                i += n
-        return i
+classÂ Solution:
+Â Â Â Â defÂ smallestEvenMultiple(self,Â n:Â int)Â ->Â int:
+Â Â Â Â Â Â Â Â iÂ =Â n
+Â Â Â Â Â Â Â Â whileÂ True:
+Â Â Â Â Â Â Â Â Â Â Â Â ifÂ iÂ %Â nÂ ==Â 0Â andÂ iÂ %Â 2Â ==Â 0:
+Â Â Â Â Â Â Â Â Â Â Â Â else:
+Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â break
+Â Â Â Â Â Â Â Â returnÂ i
 5
