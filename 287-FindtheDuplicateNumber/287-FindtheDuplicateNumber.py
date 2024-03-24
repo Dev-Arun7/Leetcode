@@ -7,4 +7,4 @@ class Solution:
             else:
                 ref_set.add(i)
         
-[
+[1,3,4,2,2]
