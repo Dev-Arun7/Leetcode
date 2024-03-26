@@ -8,4 +8,4 @@ class Solution:
         return 1
             
         
-[
+[1,2,0]
