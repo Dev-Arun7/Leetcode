@@ -1,5 +1,5 @@
 class Solution:
     def myPow(self, x: float, n: int) -> float:
-        return pow(x,n)
+        return pow(x, n)
         
 2.00000
