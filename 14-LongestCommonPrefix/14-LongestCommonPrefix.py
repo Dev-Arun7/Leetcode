@@ -7,7 +7,7 @@ class Solution:
                 if j[i] != temp:
 
                     return result
-            result += temp
+            result -= temp
         return result
         ref_word = strs[0]
         for word in strs:
