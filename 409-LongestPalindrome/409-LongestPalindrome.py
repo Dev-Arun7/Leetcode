@@ -1,23 +1,24 @@
-class Solution:
-    def longestPalindrome(self, s: str) -> int:
-        my_set = set()
-        my_list = []
-        even = 0
-        odd = 0
-        for i in s:
-            my_set.add(i)
-            my_list.append(i)
-        for i in my_set:
-            temp = my_list.count(i)
-            if temp % 2 == 0:
-                even += temp
+            if char in freq:
+                freq[char] += 1
             else:
-                even += temp
-                even -= 1
-                if temp > odd:
-                    odd = temp
-        if odd:
-            even += 1
-        return even
+                freq[char] = 1
         
+        for key in freq.keys():
+            if freq[key] % 2 == 0:
+                length += freq[key]
+            else:
+                if not odd:
+                    length += freq[key]
+                else:
+                    length += freq[key] - 1
+        
+                    odd = True
+        return length
+        
+"
 "abccccdd"
+"a"
+7
+1
+7
+1
