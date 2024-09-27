@@ -1,10 +1,11 @@
 class Solution:
     def missingNumber(self, nums: List[int]) -> int:
-        num_set = set(nums)
         l = len(nums) + 1
-        for i in range(l):
-            if i not in num_set:
-                return i
+        num_set = set(nums)
+        for n in range(l):
+            if n not in num_set:
+                return n
+        return -1
         
 [
 [3,0,1]
